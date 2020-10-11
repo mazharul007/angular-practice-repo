@@ -1,0 +1,12 @@
+<input type="text" placeholder="Add text here">
+<button class="btn btn-success" [class.active]="isActive">Click me!</button>
+
+<p>Style Binding</p>
+<button [style.backgroundColor]="isActive ? 'blue' : 'green'">Click Here!</button>
+<p>{{isActive}}</p>
+
+<p>Event binding</p>
+
+<div (click)="onDivClick()">
+    <button (click)="onClick($event)">Click here to test event binding!</button>
+</div>
