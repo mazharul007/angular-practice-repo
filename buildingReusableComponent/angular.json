@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "buildingReusableComponent"
+    }
+  },
+  "defaultProject": "buildingReusableComponent",
+  "cli": {
+    "analytics": "d976bfda-e000-4134-8b3f-20a3e457f374"
+  }
 }
