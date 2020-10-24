@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   post ={
     title:"title",
-    isFav : false
+    isFavorite : true
   }
   onClickChange(){
     console.log("output properties worked!");
