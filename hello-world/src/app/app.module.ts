@@ -12,6 +12,10 @@ import { TwoWayBindComponent } from './two-way-bind/two-way-bind.component';
 import { FormsModule } from '@angular/forms';
 import { CustomPipePipe } from './custom-pipe.pipe';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { RoutingComponent } from './routing/routing.component';
+import { ListService } from './list.service';
+
+import {HttpClientModule} from '@angular/common/http'
 
 
 @NgModule({
@@ -24,13 +28,17 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     BootstrapInstallationTestComponent,
     TwoWayBindComponent,
     CustomPipePipe,
-    ContactFormComponent
+    ContactFormComponent,
+    RoutingComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
+    
+    
   ],
-  providers: [CourseService],
+  providers: [CourseService,ListService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
