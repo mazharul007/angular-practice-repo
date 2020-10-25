@@ -11,6 +11,7 @@ import { BootstrapInstallationTestComponent } from './bootstrap-installation-tes
 import { TwoWayBindComponent } from './two-way-bind/two-way-bind.component';
 import { FormsModule } from '@angular/forms';
 import { CustomPipePipe } from './custom-pipe.pipe';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { CustomPipePipe } from './custom-pipe.pipe';
     PropertyBindingComponent,
     BootstrapInstallationTestComponent,
     TwoWayBindComponent,
-    CustomPipePipe
+    CustomPipePipe,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
